@@ -1,4 +1,17 @@
-body{
-    background:pink;
-}
 
+
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+    
+    
+  }
+
+  .card {
+    height: 1000px;
+    background-image: url(https://i.pinimg.com/originals/68/51/6a/68516a0f24be4182203d9dc8664bf758.jpg);
+  
+}
