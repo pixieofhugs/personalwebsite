@@ -1,17 +1,31 @@
 
-
-footer {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    z-index: 30;
-    
-    
+  .background-image {
+    height: 1000px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f1/Zion_National_Park_Valley.jpg);
+    max-width: 100%;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
   }
 
-  .card {
-    height: 1000px;
-    background-image: url(https://i.pinimg.com/originals/68/51/6a/68516a0f24be4182203d9dc8664bf758.jpg);
-  
+
+.section{
+    scroll-padding: 1em;
+    border-bottom: 1em;
+
 }
+
+.level{
+
+    height: 100px;
+}
+
+
+.hero is-medium is-primary is-bold{
+    opacity: .5;
+
+}
+
+
